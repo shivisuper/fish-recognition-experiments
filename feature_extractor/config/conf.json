@@ -1,0 +1,14 @@
+{
+    "model"             : "vgg19",
+    "weights"           : "imagenet",
+    "include_top"       : false,
+    "train_path"        : "/mnt/dissertation_work/resizedfish/resized224x224",
+    "features_path"     : "output/fish10/vgg19/features.h5",
+    "labels_path"       : "output/fish10/vgg19/labels.h5",
+    "results"           : "output/fish10/vgg19/results.txt",
+    "classifier_path"   : "output/fish10/vgg19/classifier.cpickle",
+    "model_path"        : "output/fish10/vgg19/model",
+    "test_size"         : 0.10,
+    "seed"              : 9,
+    "num_classes"       : 10
+}
